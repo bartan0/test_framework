@@ -56,9 +56,17 @@ Other shells
 Installation
 ------------
 
-This project repository can be obtained from GitHub::
+This project repository can be obtained in two ways:
 
-	$ git clone 'https://github.com/bartan0/test_framework'
+* from GitHub::
+
+	$ git clone https://github.com/bartan0/test_framework
+
+* from `Bartłomiej Sługocki's page`_ (as a tarball)::
+
+	$ wget https://bartan0.pl/projects/test_framework-1.0.0.tar.gz
+
+.. _Bartłomiej Sługocki's page: https://bartan0.pl/projects/test_framework-1.0.0.tar.gz
 
 After downloaded this project is not intended to be installed in any way. You
 can deploy it into your existing project (see `Deploying the framework`_).
@@ -450,6 +458,7 @@ When the version needs to be changed, there are several places to edit.
 
 *README.rst*
 	* version number in the top-level title
+	* Installation_ section - URL of the tarball (2 places)
 
 *REFERENCE.rst*
 	* version number in the top-level title
