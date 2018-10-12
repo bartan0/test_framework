@@ -43,14 +43,27 @@ GNU Bourne-Again SHell (bash)
 	This shell is not recommended, with an exception for testing purposes. With
 	*bash*, some things may be unstable or broken. Support for *bash* will be
 	added in the future. If you had decided to use *bash* and have encountered
-	any bugs or something not working as is should, feel free to email me (see
-	Authors_)
+	any bugs or something not working as it should, feel free to email me (see
+	Authors_).
 
-Others
+Other shells
 	Support for shells other than *zsh* and *bash* is not currently planned. If you
 	use other shell and decide to test how this framework works with it,
 	I strongly encourage you to email me (see Authors_) and write your
 	observations.
+
+
+Installation
+------------
+
+This project repository can be obtained from GitHub::
+
+	$ git clone 'https://github.com/bartan0/test_framework'
+
+After downloaded this project is not intended to be installed in any way. You
+can deploy it into your existing project (see `Deploying the framework`_).
+After the framework is deployed you can either delete the downloaded repo or
+leave it for deploying into another project.
 
 
 Usage

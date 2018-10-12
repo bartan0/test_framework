@@ -11,7 +11,7 @@ DISTDIR = dist
 # (recursively)
 #
 DISTFILES = \
-	Makefile \
+	.git .gitignore Makefile \
 	LICENSE README.rst REFERENCE.rst TODO.rst \
 	test.zsh data tests
 

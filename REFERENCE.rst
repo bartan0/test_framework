@@ -148,6 +148,7 @@ specified, the default value is empty string.
 	test.
 
 	::
+
 		DESCRIPTION="The best test that tests the whole Universe"
 
 *STDERR_MERGE*
@@ -156,6 +157,7 @@ specified, the default value is empty string.
 	and *stderr* would be dumped into the *stdout* dump file of the test.
 
 	::
+
 		# stdout and stderr will be saved into separate files
 		STDERR_MERGE=
 
@@ -169,6 +171,7 @@ specified, the default value is empty string.
 	would be considered broken.
 
 	::
+
 		# This test is OK, perform it
 		TEST_MARK_BROKEN=
 
@@ -180,6 +183,7 @@ specified, the default value is empty string.
 	the sense of *success* and *failure*.
 
 	::
+
 		# This test is expected to succeed
 		TEST_MARK_FAIL=
 
@@ -193,6 +197,7 @@ specified, the default value is empty string.
 	both marked as "to skip" and broken, it would be considered broken.
 
 	::
+
 		# Do not skip this test
 		TEST_MARK_SKIP=
 
