@@ -1,0 +1,3 @@
+DESCRIPTION="A broken test"
+
+TEST_MARK_BROKEN=true
