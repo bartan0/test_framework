@@ -1,4 +1,4 @@
-Simple shell-based testing framework v1.0.0
+Simple shell-based testing framework v1.0.1
 ===========================================
 
 This framework simplifies writing tests for an application under development
@@ -64,9 +64,9 @@ This project repository can be obtained in two ways:
 
 * from `Bartłomiej Sługocki's page`_ (as a tarball)::
 
-	$ wget https://bartan0.pl/projects/test_framework-1.0.0.tar.gz
+	$ wget https://bartan0.pl/projects/test_framework-1.0.1.tar.gz
 
-.. _Bartłomiej Sługocki's page: https://bartan0.pl/projects/test_framework-1.0.0.tar.gz
+.. _Bartłomiej Sługocki's page: https://bartan0.pl/projects/test_framework-1.0.1.tar.gz
 
 After downloaded this project is not intended to be installed in any way. You
 can deploy it into your existing project (see `Deploying the framework`_).

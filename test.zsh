@@ -2,7 +2,7 @@
 # test.zsh - main source file of the testing framework
 
 
-__VERSION__='1.0.0'
+__VERSION__='1.0.1'
 
 
 # ================================

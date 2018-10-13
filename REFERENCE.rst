@@ -1,4 +1,4 @@
-Simple shell-based testing framework v1.0.0 - Reference
+Simple shell-based testing framework v1.0.1 - Reference
 =======================================================
 
 A reference for testing framework. All features available to the user of the

@@ -1,5 +1,5 @@
 NAME = 'test_framework'
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 # Expected pattern to be outputted by the framework
 TEST_PATTERN = F.F!!.......!...FF..F
@@ -45,9 +45,11 @@ dist:
 # Inject everything that is important into existing project
 #
 # Variable TARGET must be set to the path of appropriate target project test
-# directory
+# directory; it is an error if the directory does not exist.
 #
 deploy:
 	$(if $(TARGET),, $(error Variable TARGET is not set))
+	$(if $(shell [ -d $(TARGET) ] && echo true),, \
+		$(error Directory $(TARGET) does not exist))
 	cp -rv $(DEPLOY_FILES) $(TARGET)
 	mkdir -p $(TARGET)/tests
